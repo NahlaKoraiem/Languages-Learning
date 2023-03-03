@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ideanity.oceans.languagelearning">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="ideanity.oceans.languagelearning.english.EnglishActivity"></activity>
+        <activity android:name="ideanity.oceans.languagelearning.Level1"/>
+        <activity android:name="ideanity.oceans.languagelearning.Level2"/>
+        <activity android:name="ideanity.oceans.languagelearning.Level3"/>
+        <activity android:name="ideanity.oceans.languagelearning.WeekActivity" />
+        <activity android:name="ideanity.oceans.languagelearning.FamilyActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.english.AlphabetActivity" />
+        <activity android:name="ideanity.oceans.languagelearning.NumbersActivity" />
+        <activity android:name="ideanity.oceans.languagelearning.ColorsActivity" />
+        <activity android:name="ideanity.oceans.languagelearning.VegetablesActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.FruitsActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.AnimalsActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.VerbsActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.PronounsActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.SentencesActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.ConversationActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.SportsActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.GreetingActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.spanish.SpanishActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.spanish.SAlphabetActivity" />
+        <activity android:name="ideanity.oceans.languagelearning.french.FrenchActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.french.FAlphabetActivity" />
+        <activity android:name="ideanity.oceans.languagelearning.german.GermanActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.german.GAlphabetActivity" />
+        <activity android:name="ideanity.oceans.languagelearning.HomeActivity"/>
+        <activity android:name="ideanity.oceans.languagelearning.Login"/>
+        <activity android:name="ideanity.oceans.languagelearning.Register"/>
+        <activity android:name="ideanity.oceans.languagelearning.MainActivity2"/>
+
+        <activity
+        android:name=".MainActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
